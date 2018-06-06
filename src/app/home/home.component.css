@@ -1,0 +1,14 @@
+
+
+.home-block{
+    position: relative;
+}
+
+.home-button{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top:40%;
+    width: 300px;
+    height: 60px;
+}

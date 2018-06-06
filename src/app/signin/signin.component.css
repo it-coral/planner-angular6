@@ -1,0 +1,10 @@
+mat-form-field{
+    width: 100%;
+}
+
+.sign-up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

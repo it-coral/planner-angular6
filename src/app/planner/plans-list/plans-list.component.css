@@ -1,0 +1,8 @@
+.example-card{
+    margin-bottom: 20px;
+}
+
+.duration{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,12 @@
+<div *ngFor="let plan of plans"  class="example-card col-lg-6">
+  <mat-card >
+    <mat-card-content>
+      <h3 style="text-align: center">{{plan.location}}</h3>
+      <h4 style="text-align: center">Days {{amountOfDays(plan.date_from.slice(0,10),plan.date_to.slice(0,10))}}</h4>
+      <p class="duration"><span>FROM {{plan.date_from.slice(0,10)}}</span><span>TO {{plan.date_to.slice(0,10)}}</span></p>
+    </mat-card-content>
+    <mat-card-actions style="text-align: center!important;">
+      <button mat-button style="background: #3f51b5;color: white;width: 139px;" [routerLink]="['../plan-detail', plan.id]">Details</button>
+    </mat-card-actions>
+  </mat-card>
+</div>

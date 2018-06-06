@@ -1,0 +1,20 @@
+<div class="container sign-up">
+  <h3 style="text-align: center;text-transform: uppercase">
+    sign in!
+  </h3>
+
+  <form [formGroup]="form" class="col-lg-4" >
+    <p style="color: red;text-align: center">{{error}}</p>
+    <div>
+      <mat-form-field  class="example-full-width">
+        <input matInput formControlName="email" placeholder="Login" value="">
+      </mat-form-field>
+    </div>
+    <div>
+      <mat-form-field  class="example-full-width">
+        <input matInput type="password" formControlName="password" placeholder="Password" value="">
+      </mat-form-field>
+    </div>
+    <button mat-raised-button color="primary" [disabled]="!form.valid" (click)="onSubmit()">Sign in</button>
+  </form>
+</div>

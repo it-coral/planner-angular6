@@ -1,0 +1,40 @@
+.add-plan-1{
+    -webkit-box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.75);
+    padding: 20px;
+}
+
+.create-plan{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.create-plan > div {
+    margin: 0 10px;
+    flex: 1;
+
+    width: 57%;
+}
+
+.create-plan > div > mat-form-field{
+    width: 100%;
+}
+
+ tbody tr:nth-of-type(2n){
+    /*background: grey;*/
+}
+
+ .location-title{
+     font-size: 19px;
+     text-align: center;
+     font-weight: bold;
+ }
+
+ .dates{
+     display: flex;
+     justify-content: space-around;
+     margin: 22px 0;
+     font-size: 20px;
+ }
